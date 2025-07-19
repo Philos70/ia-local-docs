@@ -1,0 +1,36 @@
+Local Artificial Intelligence Environment
+Username: Pablo
+Operating System: Windows 11 Pro
+Environment Location: C:\Projects\MCP
+Configuration Date: July 2025
+⚙️ Installed Components
+Tool Role in Workflow
+LM Studio Local execution of LLM language models
+Node.js JavaScript execution engine for orchestration and backend services
+GitHub MCP Server Local interface with GitHub via API, Docker container based on Go
+Sequential Thinking MCP MCP module for sequential reasoning
+Fetch MCP Retrieval of external data to enrich model inputs
+Anything LLM LLM model integration and extension platform
+🔧 GitHub MCP Installation
+Project Source: GitHub
+Initial File: github-mcp-server-main.zip
+Base Language: Go (Golang)
+Execution Method: Docker
+Steps Completed:
+1. Unzip the project to C:\Projects\MCP
+2. Validate Dockerfile, go.mod, and main.go files
+3. Generate a personal access token on GitHub (classic tokens)
+4. Run the Docker container:
+docker run -e GITHUB_PERSONAL_ACCESS_TOKEN=your_token -p 8080:8080 mcp-server
+🧭 General Workflow
+[LM Studio] → [Sequential Thinking MCP] ↓ [GitHub MCP + Fetch MCP] ↓ [Node.js] ↓ [Anything LLM]
+Each component fulfills a specific function:
+• Local natural language processing
+• Step-by-step modular reasoning
+• Data retrieval from GitHub and external sources
+• Coordination from Node.js
+• Visualization and expansion via Anything LLM
+Enviar comentarios
+Paneles laterales
+Historial
+Guardado
